@@ -1,7 +1,7 @@
 {
-  "name": "gopro-renamer",
+  "name": "gopro-video-renamer",
   "version": "1.0.0",
-  "description": "",
+  "description": "Renames gopro's videos: GH030030.MP4 => 2020-12-06_11-02-09 (GH030030).mp4",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -11,9 +11,6 @@
   "dependencies": {
     "dateformat": "^4.4.1",
     "exiftool-vendored": "^13.0.0",
-    "ffmetadata": "^1.6.0",
-    "get-file-properties": "^1.0.1",
-    "gopro-telemetry": "^1.1.32",
     "gpmf-extract": "^0.1.21",
     "node-exiftool": "^2.3.0"
   }

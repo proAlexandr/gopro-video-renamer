@@ -6,7 +6,6 @@ const exiftool = require("exiftool-vendored").exiftool
 
 const fs = fsLib.promises;
 
-
 const folderPath = process.argv[2];
 if (!folderPath) {
   throw new Error('Please specify folder path\nExample: node index.js "D:\\Photos\\2020_12 Светлогорск"');
